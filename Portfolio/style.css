@@ -102,3 +102,24 @@
                 font-size: 9px;
                 color: blue;
               }
+.body{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100vh;
+                animation: animate 16s ease-in-out infinite;
+                background-size: cover;
+              }
+              @keyframes animate{
+                0%,100%{
+                 background-image: url("https://media.istockphoto.com/photos/aerial-view-of-the-mountain-road-in-a-green-forest-picture-id1330597560?b=1&k=20&m=1330597560&s=170667a&w=0&h=6uL4OGuNad2sKmVrOJzyp3eK_qUDp1DnggPo1jFTDl4=");
+                }
+                25%{
+                 background-image: url("https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png");
+                }50%{
+                 background-image: url("https://wallpaperaccess.com/full/1567677.jpg");
+                }75%{
+
+                }
+              }
