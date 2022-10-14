@@ -1,0 +1,104 @@
+.nav-item{
+    text-align: center;
+}
+.nav-link{
+    text-align: center;
+}
+.form-level{
+
+    padding: 20px;
+    }
+    .form-group{
+    padding-bottom: 15px;
+    }
+    .form-level label{
+    display: block;
+    }
+    .form-level input[type="text"]{
+    width: 33%;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    }
+    .form-level input[type="email"]{
+    width: 33%;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+    }
+    .form-level input[type="submit"]{
+    
+    
+    margin-top: 10px;
+    }
+    .container-1{
+        text-align: center;
+    }
+    .button {
+        background-color:brown;
+        color:white;
+        padding: 5px 10px;
+        border:none;
+        }
+        
+        
+        .button:hover {
+        background-color: grey;
+        color: #ffff;
+        }
+        #main-footer{
+            align-items: center;
+            text-align: center;
+            color: white;
+            background-color: black;
+            width: 100%;
+            
+            }
+            .h3{
+                text-align: center;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                background-color: lavender;
+                color: blue;
+                margin-top: 40px;
+            }
+            .p{
+                font: 1em sans-serif;
+                animation: blink 1s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes blink {
+                0% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            .env .tooltiptext {
+                visibility: hidden;
+                width: 140px;
+                background-color: white;
+                color:black;
+                text-align: center;
+                border-radius: 12px;
+                padding: 5px 0;
+              
+                /* Position the tooltip */
+                position: absolute;
+                z-index: 1;
+              }
+              .env:hover .tooltiptext {
+                visibility: visible;
+              }
+              .tooltiptext{
+                font-size: 9px;
+                color: blue;
+              }
